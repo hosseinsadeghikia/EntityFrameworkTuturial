@@ -1,0 +1,12 @@
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\bin\Debug\net5.0\WizLib_Model.deps.json
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\bin\Debug\net5.0\WizLib_Model.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\bin\Debug\net5.0\ref\WizLib_Model.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\bin\Debug\net5.0\WizLib_Model.pdb
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\WizLib_Model.csprojAssemblyReference.cache
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\WizLib_Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\WizLib_Model.AssemblyInfoInputs.cache
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\WizLib_Model.AssemblyInfo.cs
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\WizLib_Model.csproj.CoreCompileInputs.cache
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\WizLib_Model.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\ref\WizLib_Model.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_Model\obj\Debug\net5.0\WizLib_Model.pdb

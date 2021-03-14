@@ -1,0 +1,15 @@
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\WizLib_DataAccess.deps.json
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\WizLib_DataAccess.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\ref\WizLib_DataAccess.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\WizLib_DataAccess.pdb
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\WizLib_Model.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\WizLib_Model.pdb
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.csprojAssemblyReference.cache
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.AssemblyInfoInputs.cache
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.AssemblyInfo.cs
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.csproj.CoreCompileInputs.cache
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.csproj.CopyComplete
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\ref\WizLib_DataAccess.dll
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.pdb
