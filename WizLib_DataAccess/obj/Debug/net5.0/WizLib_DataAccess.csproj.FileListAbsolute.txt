@@ -13,3 +13,6 @@ D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataA
 D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.dll
 D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\ref\WizLib_DataAccess.dll
 D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.pdb
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\WizLib_DataAccess.runtimeconfig.json
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\bin\Debug\net5.0\WizLib_DataAccess.runtimeconfig.dev.json
+D:\EntityFrameworkTutrial\WizLib\WizLib_DataAccess\obj\Debug\net5.0\WizLib_DataAccess.genruntimeconfig.cache

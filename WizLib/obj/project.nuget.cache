@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SZ9n9xWnAG5RDntn92v1S133pBO08GfzYosiQgOaKOCTnc96ghyVvbJH7rHK4+5pVbJif2U+cQNMkCRRvkTzdw==",
+  "dgSpecHash": "CUERWFyIMsyjqxqIp1AFf9eExfQZ5+hvbtGRA7WkyRI/b4QUHqDF76XeSaOaW6mOpQKSCcq6cOtYpE4dGydA4A==",
   "success": true,
   "projectFilePath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib\\WizLib.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\h.sadeghikia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.4\\microsoft.aspnetcore.mvc.razor.extensions.5.0.4.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.4\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.4.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.4\\microsoft.aspnetcore.razor.language.5.0.4.nupkg.sha512",
@@ -17,8 +18,10 @@
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.analyzers.6.0.0-preview.1.21102.2.nupkg.sha512",
+    "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.design.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.relational.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.sqlserver.6.0.0-preview.1.21102.2.nupkg.sha512",
+    "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.tools.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0-preview.1.21102.12\\microsoft.extensions.caching.abstractions.6.0.0-preview.1.21102.12.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0-preview.1.21102.12\\microsoft.extensions.caching.memory.6.0.0-preview.1.21102.12.nupkg.sha512",
     "C:\\Users\\h.sadeghikia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0-preview.1.21102.12\\microsoft.extensions.configuration.abstractions.6.0.0-preview.1.21102.12.nupkg.sha512",
