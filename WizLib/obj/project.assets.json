@@ -831,6 +831,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "3.8.0",
           "Microsoft.EntityFrameworkCore": "6.0.0-preview.1.21102.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0-preview.1.21102.2",
           "WizLib_Model": "1.0.0"
