@@ -21,3 +21,4 @@ F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.csproj.Cor
 F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.dll
 F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\ref\WizLib_Model.dll
 F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.pdb
+F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.csprojAssemblyReference.cache
