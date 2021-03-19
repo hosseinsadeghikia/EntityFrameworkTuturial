@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_DataAccess\\WizLib_DataAccess.csproj": {}
+    "F:\\EntityFrameworkTuturial\\WizLib_DataAccess\\WizLib_DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_DataAccess\\WizLib_DataAccess.csproj": {
+    "F:\\EntityFrameworkTuturial\\WizLib_DataAccess\\WizLib_DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_DataAccess\\WizLib_DataAccess.csproj",
+        "projectUniqueName": "F:\\EntityFrameworkTuturial\\WizLib_DataAccess\\WizLib_DataAccess.csproj",
         "projectName": "WizLib_DataAccess",
-        "projectPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_DataAccess\\WizLib_DataAccess.csproj",
-        "packagesPath": "C:\\Users\\h.sadeghikia\\.nuget\\packages\\",
-        "outputPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_DataAccess\\obj\\",
+        "projectPath": "F:\\EntityFrameworkTuturial\\WizLib_DataAccess\\WizLib_DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Hossein\\.nuget\\packages\\",
+        "outputPath": "F:\\EntityFrameworkTuturial\\WizLib_DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\h.sadeghikia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hossein\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj": {
-                "projectPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj"
+              "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj": {
+                "projectPath": "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj"
               }
             }
           }
@@ -78,17 +81,20 @@
         }
       }
     },
-    "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj": {
+    "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj",
+        "projectUniqueName": "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj",
         "projectName": "WizLib_Model",
-        "projectPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj",
-        "packagesPath": "C:\\Users\\h.sadeghikia\\.nuget\\packages\\",
-        "outputPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\obj\\",
+        "projectPath": "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj",
+        "packagesPath": "C:\\Users\\Hossein\\.nuget\\packages\\",
+        "outputPath": "F:\\EntityFrameworkTuturial\\WizLib_Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\h.sadeghikia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hossein\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

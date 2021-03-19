@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j6eEtsmtzrScbpH0ioll9xFOjinSE7v+/iwImfBaEYb9V8fMDheJBX/pqwEy3Yfd3aYpG7Ey8C3fm9G1BTt3kA==",
+  "dgSpecHash": "X7h76BGJo7p+JWPsStWI2p4IfQzyN9unJEdhD9qy6/xuCY0OO5bTCIW25Lld12WUx2AlALl3W/Pky4oG6cNZ8g==",
   "success": true,
-  "projectFilePath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj",
+  "projectFilePath": "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2494,19 +2494,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\h.sadeghikia\\.nuget\\packages\\": {}
+    "C:\\Users\\Hossein\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib\\WizLib.csproj",
+      "projectUniqueName": "F:\\EntityFrameworkTuturial\\WizLib\\WizLib.csproj",
       "projectName": "WizLib",
-      "projectPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib\\WizLib.csproj",
-      "packagesPath": "C:\\Users\\h.sadeghikia\\.nuget\\packages\\",
-      "outputPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib\\obj\\",
+      "projectPath": "F:\\EntityFrameworkTuturial\\WizLib\\WizLib.csproj",
+      "packagesPath": "C:\\Users\\Hossein\\.nuget\\packages\\",
+      "outputPath": "F:\\EntityFrameworkTuturial\\WizLib\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\h.sadeghikia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hossein\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2520,11 +2524,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_DataAccess\\WizLib_DataAccess.csproj": {
-              "projectPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_DataAccess\\WizLib_DataAccess.csproj"
+            "F:\\EntityFrameworkTuturial\\WizLib_DataAccess\\WizLib_DataAccess.csproj": {
+              "projectPath": "F:\\EntityFrameworkTuturial\\WizLib_DataAccess\\WizLib_DataAccess.csproj"
             },
-            "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj": {
-              "projectPath": "D:\\EntityFrameworkTutrial\\WizLib\\WizLib_Model\\WizLib_Model.csproj"
+            "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj": {
+              "projectPath": "F:\\EntityFrameworkTuturial\\WizLib_Model\\WizLib_Model.csproj"
             }
           }
         }
