@@ -14,7 +14,6 @@ F:\EntityFrameworkTuturial\WizLib_Model\bin\Debug\net5.0\WizLib_Model.deps.json
 F:\EntityFrameworkTuturial\WizLib_Model\bin\Debug\net5.0\WizLib_Model.dll
 F:\EntityFrameworkTuturial\WizLib_Model\bin\Debug\net5.0\ref\WizLib_Model.dll
 F:\EntityFrameworkTuturial\WizLib_Model\bin\Debug\net5.0\WizLib_Model.pdb
-F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.csprojAssemblyReference.cache
 F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.GeneratedMSBuildEditorConfig.editorconfig
 F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.AssemblyInfoInputs.cache
 F:\EntityFrameworkTuturial\WizLib_Model\obj\Debug\net5.0\WizLib_Model.AssemblyInfo.cs
