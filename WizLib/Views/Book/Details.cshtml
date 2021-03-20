@@ -1,15 +1,16 @@
 ﻿@model WizLib_Model.ViewModels.BookVM
 @{
-    var title = "Create Book";
+    var title = "Create Book Details";
 }
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <input type="hidden" asp-for="Book.Book_Id" />
-        @if (Model.Book != null)
+        <input type="hidden" asp-for="Book.BookDetail.BookDetail_Id" />
+        @if (Model.Book == null || Model.Book.Book_Id != 0 || Model.Book.BookDetail.BookDetail_Id != 0)
         {
             //edit
-            title = "Edit Book";
+            title = "Edit Book Details";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
@@ -20,51 +21,46 @@
                     <label asp-for="Book.Title"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="Book.Title" class="form-control" />
-                    <span asp-validation-for="Book.Title" class="text-danger"></span>
+                    <input asp-for="Book.Title" disabled class="form-control" />
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="Book.ISBN"></label>
+                    <label asp-for="Book.BookDetail.NumberOfChapters"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="Book.ISBN" class="form-control" />
-                    <span asp-validation-for="Book.ISBN" class="text-danger"></span>
+                    <input asp-for="Book.BookDetail.NumberOfChapters" class="form-control" />
+                    <span asp-validation-for="Book.BookDetail.NumberOfChapters" class="text-danger"></span>
                 </div>
             </div>
-
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="Book.Price"></label>
+                    <label asp-for="Book.BookDetail.NumberOfPages"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="Book.Price" class="form-control" />
-                    <span asp-validation-for="Book.Price" class="text-danger"></span>
+                    <input asp-for="Book.BookDetail.NumberOfPages" class="form-control" />
+                    <span asp-validation-for="Book.BookDetail.NumberOfPages" class="text-danger"></span>
                 </div>
             </div>
-
-
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="Book.Publisher_Id"></label>
+                    <label asp-for="Book.BookDetail.Weight"></label>
                 </div>
                 <div class="col-8">
-                    <select asp-for="Book.Publisher_Id" asp-items="Model.PublisherList" class="form-control">
-                        <option disabled selected>--- Publisher List ---</option>
-                    </select>
-                    <span asp-validation-for="Book.Publisher_Id" class="text-danger"></span>
+                    <input asp-for="Book.BookDetail.Weight" class="form-control" />
+                    <span asp-validation-for="Book.BookDetail.Weight" class="text-danger"></span>
                 </div>
             </div>
+
             <div class="form-group row">
                 <div class="col-4 offset-4">
-                    @if (Model.Book == null)
+                    @if (Model.Book == null || Model.Book.Book_Id != 0 || Model.Book.BookDetail.BookDetail_Id != 0)
                     {
-                        <button type="submit" class="btn btn-primary form-control">Create</button>
+                        <button type="submit" class="btn btn-primary form-control">Update</button>
                     }
                     else
                     {
-                        <button type="submit" class="btn btn-primary form-control">Update</button>
+                        <button type="submit" class="btn btn-primary form-control">Create</button>
                     }
                 </div>
                 <div class="col-4">

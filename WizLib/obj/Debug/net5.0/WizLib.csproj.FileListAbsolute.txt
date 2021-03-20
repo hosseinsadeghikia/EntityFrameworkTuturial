@@ -776,3 +776,7 @@ F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Publisher\Index.c
 F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Publisher\Upsert.cshtml.g.cs
 F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Book\Index.cshtml.g.cs
 F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Book\Upsert.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\EntityFrameworkTuturial\WizLib\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\EntityFrameworkTuturial\WizLib\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Book\Details.cshtml.g.cs
