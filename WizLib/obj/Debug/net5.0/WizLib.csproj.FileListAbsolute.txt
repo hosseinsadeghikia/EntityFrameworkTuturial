@@ -768,3 +768,11 @@ F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\WizLib.dll
 F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\ref\WizLib.dll
 F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\WizLib.pdb
 F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\WizLib.genruntimeconfig.cache
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Category\Upsert.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Author\Index.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Author\Upsert.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Publisher\Index.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Publisher\Upsert.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Book\Index.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Book\Upsert.cshtml.g.cs
