@@ -780,3 +780,4 @@ F:\EntityFrameworkTuturial\WizLib\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatc
 F:\EntityFrameworkTuturial\WizLib\bin\Debug\net5.0\Newtonsoft.Json.dll
 F:\EntityFrameworkTuturial\WizLib\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Book\Details.cshtml.g.cs
+F:\EntityFrameworkTuturial\WizLib\obj\Debug\net5.0\Razor\Views\Book\ManageAuthors.cshtml.g.cs
