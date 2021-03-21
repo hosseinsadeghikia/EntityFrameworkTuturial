@@ -24,7 +24,7 @@ namespace WizLib.Controllers
         public IActionResult Index()
         {
             var objList = _context.Books.Include(x => x.Publisher)
-                .Include(x=>x.BookAuthors).ThenInclude(x=>x.Author).ToList();
+                .Include(x => x.BookAuthors).ThenInclude(x => x.Author).ToList();
 
             //var objList = _context.Books.ToList();
             //foreach (var obj in objList)
@@ -169,7 +169,7 @@ namespace WizLib.Controllers
                 _context.SaveChanges();
             }
 
-            return RedirectToAction(nameof(ManageAuthors), new {@id = bookAuthorVm.BookAuthor.Book_Id});
+            return RedirectToAction(nameof(ManageAuthors), new { @id = bookAuthorVm.BookAuthor.Book_Id });
         }
 
         [HttpPost]
@@ -181,7 +181,7 @@ namespace WizLib.Controllers
                     x.Author_Id == authorId && x.Book_Id == bookId);
             _context.BookAuthors.Remove(bookAuthor ?? throw new InvalidOperationException());
             _context.SaveChanges();
-          
+
             return RedirectToAction(nameof(ManageAuthors), new { @id = bookId });
         }
 
@@ -209,26 +209,47 @@ namespace WizLib.Controllers
 
             //var bookCount2 = _context.Books.Count();
 
-            IEnumerable<Book> bookList1 = _context.Books;
-            var filterBook1 = bookList1.Where(b => b.Price > 500).ToList();
+            //IEnumerable<Book> bookList1 = _context.Books;
+            //var filterBook1 = bookList1.Where(b => b.Price > 500).ToList();
 
-            IQueryable<Book> bookList2 = _context.Books;
-            var filterBook2 = bookList2.Where(b => b.Price > 500);
+            //IQueryable<Book> bookList2 = _context.Books;
+            //var filterBook2 = bookList2.Where(b => b.Price > 500);
 
-            //var category = _context.Categories.FirstOrDefault();
-            //_context.Entry(category).State = EntityState.Modified;
+            ////var category = _context.Categories.FirstOrDefault();
+            ////_context.Entry(category).State = EntityState.Modified;
+            ////_context.SaveChanges();
+
+            ////Updating Related Data
+            //var bookTemp1 = _context.Books.Include(x => x.BookDetail).FirstOrDefault(b => b.Book_Id == 4);
+            //if (bookTemp1 != null) bookTemp1.BookDetail.NumberOfChapters = 150;
+            //_context.Books.Update(bookTemp1 ?? throw new InvalidOperationException());
             //_context.SaveChanges();
 
-            //Updating Related Data
-            var bookTemp1 = _context.Books.Include(x => x.BookDetail).FirstOrDefault(b => b.Book_Id == 4);
-            if (bookTemp1 != null) bookTemp1.BookDetail.NumberOfChapters = 150;
-            _context.Books.Update(bookTemp1 ?? throw new InvalidOperationException());
-            _context.SaveChanges();
+            //var bookTemp2 = _context.Books.Include(x => x.BookDetail).FirstOrDefault(b => b.Book_Id == 4);
+            //if (bookTemp2 != null) bookTemp2.BookDetail.NumberOfChapters = 210;
+            //_context.Books.Attach(bookTemp2 ?? throw new InvalidOperationException());
+            //_context.SaveChanges();
 
-            var bookTemp2 = _context.Books.Include(x => x.BookDetail).FirstOrDefault(b => b.Book_Id == 4);
-            if (bookTemp2 != null) bookTemp2.BookDetail.NumberOfChapters = 210;
-            _context.Books.Attach(bookTemp2 ?? throw new InvalidOperationException());
-            _context.SaveChanges();
+            //VIEWS 
+            var viewList = _context.BookDetailFromViews.ToList();
+            var viewList1 = _context.BookDetailFromViews.FirstOrDefault();
+            var viewList2 = _context.BookDetailFromViews.Where(x => x.Price > 500);
+
+            //RAW SQL
+            var bookRaw = _context.Books.FromSqlRaw("Select * from fbo.books").ToList();
+
+            //SQL Injection attack prone
+            var id = 3;
+            var bookTemp1 = _context.Books.FromSqlInterpolated($"Select * from fbo.books where Book_Id = {id} ");
+
+            var booksSproc = _context.Books.FromSqlInterpolated($"EXEC dbo.getAllBookDetails {id}").ToList();
+
+            //.NET 5 Only
+
+            var bookFilter1 = _context.Books
+                .Include(x => x.BookAuthors.Where(x => x.Author_Id == 5)).ToList();
+            var bookFilter2 = _context.Books
+                .Include(x => x.BookAuthors.OrderByDescending(x => x.Author_Id).Take(2)).ToList();
 
             return RedirectToAction(nameof(Index));
         }

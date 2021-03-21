@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using WizLib_DataAccess.Data;
 using WizLib_Model.Models;
 
@@ -19,7 +20,7 @@ namespace WizLib.Controllers
 
         public IActionResult Index()
         {
-            var objList = _context.Categories.ToList();
+            var objList = _context.Categories.AsNoTracking().ToList();
             return View(objList);
         }
 
